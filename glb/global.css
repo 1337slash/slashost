@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+}
+
+::selection {
+    background-color: rgb(104, 104, 104);
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+
+.logonav {
+    width: 40px;
+    height: auto;
+    margin-right: 7px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+
+}
+
+.navbar-brand {
+    font-size: 36px;
+    font-family: "Quicksand", sans-serif;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.nav-link {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    margin: 0px 12px 0px 12px;
+    cursor: pointer;
+     -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out; 
+}
+
+.active {
+    color: rgba(0,0,0,.7);
+}
+
+.icona {
+    margin-right: 5px;
+    font-size: 17px;
+} 
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+  
+    display: flex;
+    align-items: center;
+  }

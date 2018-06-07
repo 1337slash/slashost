@@ -1,0 +1,58 @@
+.titolo {
+    font-family: "Raleway", sans-serif;
+    font-size: 70px;
+    color: white;
+
+}
+
+.sottotitolo {
+    font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.575);
+}
+
+.bg {
+    background-image: url(https://www.digitalocean.com/assets/media/hero-images/customers-f104f5c8.svg);
+    background-color: rgb(0, 119, 255);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: bottom;
+}
+
+.bg-light {
+    background-color: rgb(0, 119, 255) !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-text a {
+    color: white;
+}
+
+.navbar-light .navbar-text a:hover {
+    color: white;
+}
+
+.spaziosu {
+    margin-top: 50px;
+}
+
+.features {
+    border: 1px solid rgba(0, 119, 255, 0.144);
+    padding: 20px;
+}
+
+.featuresicons {
+    font-size: 50px; 
+}
