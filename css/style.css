@@ -1,3 +1,7 @@
+/* 
+Creato da Robert Bustiuc (con l'aiuto di alcuni strumenti).
+*/
+
 .titolo {
     font-family: "Raleway", sans-serif;
     font-size: 70px;
@@ -18,6 +22,10 @@
     background-attachment: fixed;
     background-position: center;
     background-position-y: bottom;
+}
+
+.bg2 {
+    background: url(https://discordapp.com/assets/f35de8ceb4c7be0466509e067b5209a6.svg) top 100px left no-repeat, url(https://discordapp.com/assets/5c8a0eea53ae23a427b61fdb1a2487b6.svg) bottom right no-repeat;
 }
 
 .bg-light {
@@ -44,15 +52,62 @@
     color: white;
 }
 
-.spaziosu {
+.spaziosuegiu {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .features {
-    border: 1px solid rgba(0, 119, 255, 0.144);
-    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.034);
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.014), 0 3px 6px rgba(0, 0, 0, 0.014);
+}
+
+.features:hover {
+    box-shadow:0 4px 10px rgba(0, 0, 0, 0.200);
 }
 
 .featuresicons {
     font-size: 50px; 
+}
+
+.ftitolo {
+    font-family: "Quicksand", sans-serif;
+    font-size: 40px;
+    color: rgb(53, 53, 53);
+    text-align: center;
+}
+
+.fline {
+    width: 100px;
+    background-color: rgb(0, 119, 255);
+    height: 3px;
+    margin-top: 35px;
+    margin-bottom: 0px;
+    border-radius: 100px;
+    
+}
+
+.ftitoli {
+    font-family: "Quicksand", sans-serif;
+    font-size: 23px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.fdesc {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(133, 133, 133);
+}
+
+.ficon {
+    font-size: 46px;
+    margin-bottom: 20px;
+    color: rgb(59, 59, 59);
 }
