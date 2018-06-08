@@ -28,6 +28,12 @@ Creato da Robert Bustiuc (con l'aiuto di alcuni strumenti).
     background: url(https://discordapp.com/assets/f35de8ceb4c7be0466509e067b5209a6.svg) top 100px left no-repeat, url(https://discordapp.com/assets/5c8a0eea53ae23a427b61fdb1a2487b6.svg) bottom right no-repeat;
 }
 
+.bg3 {
+    /* background-color: rgb(0, 119, 255); */
+    background: rgb(9,9,121);
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
 .bg-light {
     background-color: rgb(0, 119, 255) !important;
 }
@@ -110,4 +116,33 @@ Creato da Robert Bustiuc (con l'aiuto di alcuni strumenti).
     font-size: 46px;
     margin-bottom: 20px;
     color: rgb(59, 59, 59);
+}
+
+@font-face {
+    font-family: 'Sailec';
+    src: url('/fonts/Sailec-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+.ctitolo {
+    font-family: "Sailec", sans-serif;
+    font-size: 50px;
+    color: white;
+}
+
+.ctesto {
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.sugiu {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.clienti {
+    width: 200px;
+    height: auto;
 }
