@@ -2,6 +2,17 @@
 Creato da Robert Bustiuc (con l'aiuto di alcuni strumenti).
 */
 
+a {
+    color: white;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #b4d7ff;
+    /* transition: 0.4s; */
+    transition-timing-function: ease-in-out ;
+}
+
 .titolo {
     font-family: "Raleway", sans-serif;
     font-size: 70px;
@@ -175,10 +186,6 @@ Creato da Robert Bustiuc (con l'aiuto di alcuni strumenti).
 
 .rowsu {
     margin-top: 40px;
-}
-
-.spz {
-    /* margin-top: 20px; */
 }
 
 .clientilogogo {
