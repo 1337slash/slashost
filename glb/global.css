@@ -13,11 +13,34 @@ body,html {
     overflow-x: hidden;
 }
 
-::selection, ::-moz-selection, {
-    background-color: rgb(104, 104, 104);
+::selection {
+    background-color: rgb(95, 196, 255);
     color: white;
 }
 
+::-moz-selection {
+    background-color: rgb(95, 196, 255);
+    color: white;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ffffff11;
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0; 
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dddddd;
+    border-radius: 100px;
+    
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(182, 182, 182);
+}
 
 a, a:hover {
     text-decoration: inherit;
@@ -28,6 +51,7 @@ img {
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
+    pointer-events: none;
 }
 
 .logonav {
