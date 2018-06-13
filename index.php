@@ -1,3 +1,14 @@
+<!-- 
+#######################################
+Sito web creato da 0 da Robert Bustiuc
+Le immagini appartengono ai rispettivi
+proprietari. 
+Progetto per: IRIGEM.
+Iniziato il: 5 Giugno 2018
+Consegnato il: 13 Giugno 2018
+#######################################
+-->
+
 <?php $page = 'home'; ?>
 <!doctype html>
 <html lang="en">
@@ -11,8 +22,8 @@
     <main>
         <div class="vertical-center bg">
             <div class="container">
-                <h1 class="titolo">La semplicità, su <br>larga scala.</h1>
-                <p class="sottotitolo">Amet id sit aute in incididunt <br>excepteur. Non enim eiusmod <br> magna esse labore sint.</p>
+                <h1 class="titolo">La semplicità,  <br>su larga scala.</h1>
+                <p class="sottotitolo">Dal 2005 la compagnia di hosting<br> ideale per ogni esigenza. I clienti <br>più soddisfatti li trovi da noi!</p>
             </div>
         </div>
         <div class="bg2">
