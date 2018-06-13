@@ -1,4 +1,3 @@
-<img src="/2.svg">
 <footer class="footer">
     <div class="container">
         <div class="row">

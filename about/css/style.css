@@ -1,0 +1,55 @@
+.vertical-center {
+	background-color: #0077ff;
+}
+
+a {
+    color: white;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #b4d7ff;
+    transition-timing-function: ease-in-out ;
+}
+
+@font-face {
+    font-family: 'gotham';
+    src: url('/fonts/gotham.woff') format('woff');
+}
+
+.bg-light {
+    background-color: #0077ff !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.navbar-light .navbar-text a {
+    color: white;
+}
+
+.navbar-light .navbar-text a:hover {
+    color: white;
+}
+
+.errore {
+    color: white;
+    font-family: "gotham", sans-serif;
+    margin-bottom: 0px;
+}
+
+.spiacenti {
+    color: white;
+    font-family: "gotham", sans-serif;
+    margin-top: 0px;
+    font-size: 18px;
+}

@@ -2,11 +2,6 @@
 Creato da Robert Bustiuc (con l'aiuto di alcuni strumenti).
 */
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body,html {
     height: 100%;
     width: 100%;
@@ -24,7 +19,7 @@ body,html {
 }
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 3px;
     background-color: #ffffff11;
 }
 
@@ -103,6 +98,7 @@ img {
 
 .footer {
     background-color: #0077ff;
+    margin-top:0px;
 }
 
 .flink {
